@@ -1,16 +1,13 @@
-#hello
-{
-	color: red;
-}
-
-.test
-{
-	font-style: italic;
-}
-
-div
+#first
 {
 	border: 1px solid black;
 	height: 500px;
 	width: 500pc;
+}
+
+#second
+{
+	border: 1px dashed red;
+	height: 250px;
+	width: 250pc;
 }
