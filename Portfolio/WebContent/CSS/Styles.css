@@ -5,9 +5,22 @@
 	box-sizing: border-box;
 }
 
+html
+{
+	scroll-behavior: smooth;
+}
+
 h1
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Source', sans pro;
+	color: #996666;
+	margin-bottom: 0;
+	display: inline-block;
+	font-weight: 300;
+}
+
+#mastercontainer{
+	position: relative;
 }
 
 #mobilenavbar
@@ -15,21 +28,24 @@ h1
 	display: none;
 }
 
-@media only screen and (max-width: 768px)
+#me
+{
+	width: 25%;
+}
 
-	#navbar{
-		display: none;
-		
-	}
+@media only screen and (max-width: 768px)
+{
+
+#navbar{
+	display: none;
+}
 	
 #mobilenavbar{
-	display: black;
+	display: block;
 	position: absolute;
 	top: 0;
 	right: 20px;
 	cursor: pointer;
 }
 
-#mastercontainer{
-	position: relative;
 }
